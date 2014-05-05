@@ -9,7 +9,7 @@ RUN apt-get update -y
 RUN apt-get -y install build-essential libssl-dev wget
 
 #configuration for node
-ENV NODE_VERSION 0.10.26
+ENV NODE_VERSION 0.10.28
 ENV NODE_ARCH x64
 
 #installation node
